@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form action="Survey_form.html" method="post">
+
+        <!-- Question 1 (Radio Buttons): -->
+        <div>
+            <h2>How often do you exercise?</h2>
+            <label for="daily">Daily</label>
+            <input type="radio" name="daily" id="daily" value="daily">
+        </div>
+
+        <div>
+            <label for="daily">Weekly</label>
+            <input type="radio" name="daily" id="daily" value="daily">
+        </div>
+
+        <div>
+            <label for="daily">Monthly</label>
+            <input type="radio" name="daily" id="daily" value="daily">
+        </div>
+
+        <div>
+            <label for="daily">Rarely</label>
+            <input type="radio" name="daily" id="daily" value="daily">
+        </div>
+
+        <!-- Question 2 (Checkboxes): -->
+        <div>
+            <h2>What type of exercise do you prefer? </h2>
+            <div>
+                <label for="cardio">Cardio</label>
+                <input type="checkbox" name="cardio" id="cardio" value="yes">
+            </div>
+            <div>
+                <label for="strength">Strength Training</label>
+                <input type="checkbox" name="strength" id="strength" value="yes">
+            </div>
+            <div>
+                <label for="yoga">Yoga</label>
+                <input type="checkbox" name="yoga" id="yoga" value="yes">
+            </div>
+        </div>
+
+        <!-- Question 4 (Multiple Select Dropdown): -->
+        <div>
+            <h2>What motivates you to exercise?</h2>
+            <label for="motivates">Select one:</label>
+            <select name="motivates" id="motivates" >
+                <option value="health">Health</option>
+                <option value="weight">Weight Loss</option>
+                <option value="stress">Stress Relief</option>
+                <option value="competition">Competition</option>
+            </select>
+        </div>
+
+        <!-- Question 3 (Range Input): -->
+        <div>
+            <h2>On a scale from 1 to 10, how would you rate your overall fitness level?</h2>
+            <label for="rate">Rate (between 0 and 10):
+                <!-- <p>0 is law and 10 high</p> -->
+            </label>
+                <p>0 is law and 10 high</p>
+              <input type="range" id="points" name="points" min="0" max="10">
+        </div>
+
+        <!-- Question 5 (Text Area): -->
+        <div>
+            <h2>Any additional comments or suggestions?</h2>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="4"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+
+    </form>
+    
+</body>
+</html>
