@@ -1,0 +1,40 @@
+/* #stylings2.css */
+
+/*Element Selector*/
+header{
+    background-color: #f0f0f0;
+}
+button{
+    background-color: #007bff;
+}
+
+h1{
+    font-size: 32px;
+    color: red;
+}
+input{
+    border: 1px solid;
+}
+/* Class Selector */
+.highlight{
+    background-color: yellow;
+}
+
+/* Descendant Selector */
+ul li{
+    list-style: square;
+    color: green;
+}
+
+/* Pseudo Selector */
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+p em{
+    font-style: italic;
+    font-weight: bold;
+}
+p{
+    
+}
