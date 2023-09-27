@@ -35,6 +35,10 @@ p em{
     font-style: italic;
     font-weight: bold;
 }
-p{
-    
+form{
+    border: 2px solid;
+    padding: 20px;
+}
+.form_data{
+    padding: 3px;
 }
