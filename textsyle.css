@@ -1,0 +1,20 @@
+.styled-text {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #336699;
+    text-align: center;
+}
+.colored-text{
+    color: red;
+    background-color: #ffffcc;
+
+}
+.background-style{
+    /* background-image: url('background-image.jpg'); */
+    border-color: #f0f0f0;
+    background-size: cover;
+    background: linear-gradient(to right, #ff5733, #ffbd33);
+    background-attachment: fixed;
+    background-size: cover;
+}

@@ -1,0 +1,32 @@
+/* Reset some default margin and padding for consistency */
+body, h1, h2, p{
+    margin: 0;
+    padding: 0;
+}
+/* Aplying a background color to the entire page */
+body{
+    background-color: #f0f0f0;
+    /* background-image: url(background-image.jpg); */
+
+}
+/* Styling the header content section */
+header{
+    background-color: #336699;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Styling the main content section */
+main{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+}
+/* Styling the footer */
+footer{
+    text-align: center;
+    background-color: #336699;
+    color: white;
+    padding: 10px;
+}
