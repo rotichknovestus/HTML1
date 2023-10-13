@@ -1,0 +1,21 @@
+body {
+    background-color: whitesmoke;
+    color: green;
+    font-size: large;
+    text-align: center;
+}
+ 
+p::first-line {
+    color: black;
+    font-weight: bold;
+}
+.highlight::before{
+    content: "Important Notice:";
+    color: blue;
+    font-style: italic;
+}
+p::first-letter {
+    color: Red;
+    font-size: 30px;
+    font-weight: bold;
+}git 
